@@ -1,0 +1,51 @@
+{
+  "prototypeDesign": "APPROVED_BY_USER",
+  "implementationApprovalIsNotReleaseApproval": true,
+  "phases": [
+    {
+      "phase": 1,
+      "status": "NOT_STARTED",
+      "reviewer": "",
+      "decision": "PENDING",
+      "evidencePaths": [],
+      "approvedAt": null,
+      "remainingWork": []
+    },
+    {
+      "phase": 2,
+      "status": "NOT_STARTED",
+      "reviewer": "",
+      "decision": "PENDING",
+      "evidencePaths": [],
+      "approvedAt": null,
+      "remainingWork": []
+    },
+    {
+      "phase": 3,
+      "status": "NOT_STARTED",
+      "reviewer": "",
+      "decision": "PENDING",
+      "evidencePaths": [],
+      "approvedAt": null,
+      "remainingWork": []
+    },
+    {
+      "phase": 4,
+      "status": "NOT_STARTED",
+      "reviewer": "",
+      "decision": "PENDING",
+      "evidencePaths": [],
+      "approvedAt": null,
+      "remainingWork": []
+    },
+    {
+      "phase": 5,
+      "status": "NOT_STARTED",
+      "reviewer": "",
+      "decision": "PENDING",
+      "evidencePaths": [],
+      "approvedAt": null,
+      "remainingWork": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "templateVersion": 1,
+  "phase": 1,
+  "project": "Nexus.FrameStudio",
+  "implementationStatus": "NOT_STARTED",
+  "repository": "",
+  "commit": "",
+  "environment": {},
+  "build": {
+    "status": "NOT_RUN",
+    "command": "",
+    "exitCode": null,
+    "evidence": []
+  },
+  "taskResults": [],
+  "testResults": [],
+  "remainingWork": [],
+  "defects": [],
+  "sourceProtectionEvidence": [],
+  "approval": {
+    "status": "PENDING",
+    "reviewer": "",
+    "date": null,
+    "reviewedCommit": "",
+    "evidence": []
+  },
+  "testResultShape": {
+    "id": "P1-M01",
+    "status": "NOT_RUN",
+    "actual": "",
+    "commandOrUiSteps": [],
+    "evidence": [],
+    "defectId": "",
+    "notRunReason": "Not implemented/executed"
+  }
+}

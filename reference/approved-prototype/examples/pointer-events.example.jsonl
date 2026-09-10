@@ -1,0 +1,2 @@
+{"id": "click-left-01", "ptsUs": 1500000, "kind": "button-down", "button": "left", "positionCanvasPx": {"x": 690, "y": 540}}
+{"id": "click-left-up-01", "ptsUs": 1520000, "kind": "button-up", "button": "left", "positionCanvasPx": {"x": 690, "y": 540}}

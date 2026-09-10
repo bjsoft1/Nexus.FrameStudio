@@ -1,0 +1,434 @@
+window.NFS_PAGES = [
+  {
+    "id": "home",
+    "title": "Studio home",
+    "group": "Studio",
+    "headline": "Your next great take starts here.",
+    "description": "Choose a recording or continue a non-destructive edit.",
+    "number": 1
+  },
+  {
+    "id": "projects",
+    "title": "Project library",
+    "group": "Studio",
+    "headline": "A home for every take.",
+    "description": "Recent sessions, editable projects and reusable assets.",
+    "number": 2
+  },
+  {
+    "id": "new-project",
+    "title": "New project",
+    "group": "Studio",
+    "headline": "Set the stage.",
+    "description": "Name a project and choose its canvas before editing.",
+    "number": 3
+  },
+  {
+    "id": "import",
+    "title": "Import media",
+    "group": "Studio",
+    "headline": "Bring your story together.",
+    "description": "Add video, images, audio, or an editable FrameStudio project.",
+    "number": 4
+  },
+  {
+    "id": "missing-media",
+    "title": "Relink missing media",
+    "group": "Studio",
+    "headline": "Reconnect. Never overwrite.",
+    "description": "Resolve missing assets without changing the timeline.",
+    "number": 5
+  },
+  {
+    "id": "record",
+    "title": "Quick recording",
+    "group": "Capture",
+    "headline": "Ready when you are.",
+    "description": "A clean screen recording. Every effect stays editable.",
+    "number": 6
+  },
+  {
+    "id": "capture-source",
+    "title": "Capture source",
+    "group": "Capture",
+    "headline": "Choose what you share.",
+    "description": "Record a monitor, an application window or a precise region.",
+    "number": 7
+  },
+  {
+    "id": "monitors",
+    "title": "Multi-monitor layout",
+    "group": "Capture",
+    "headline": "More screens. One canvas.",
+    "description": "Preserve screen geometry and fill the empty space, never stretch it.",
+    "number": 8
+  },
+  {
+    "id": "region",
+    "title": "Custom capture area",
+    "group": "Capture",
+    "headline": "Frame only what matters.",
+    "description": "Move and resize the capture rectangle in physical pixels.",
+    "number": 9
+  },
+  {
+    "id": "video-quality",
+    "title": "Recording quality",
+    "group": "Capture",
+    "headline": "Find your quality balance.",
+    "description": "Resolution, frame rate and bitrate are separate choices.",
+    "number": 10
+  },
+  {
+    "id": "audio",
+    "title": "System audio & tracks",
+    "group": "Capture",
+    "headline": "Keep every voice independent.",
+    "description": "Arm separate system and microphone sources before recording.",
+    "number": 11
+  },
+  {
+    "id": "microphone",
+    "title": "Microphone setup",
+    "group": "Capture",
+    "headline": "Make yourself heard.",
+    "description": "Input selection, gain, monitoring and processing controls.",
+    "number": 12
+  },
+  {
+    "id": "webcam",
+    "title": "Webcam & layout",
+    "group": "Capture",
+    "headline": "Put a face to the story.",
+    "description": "Capture the camera separately so its layout can change later.",
+    "number": 13
+  },
+  {
+    "id": "mouse",
+    "title": "Cursor appearance",
+    "group": "Capture",
+    "headline": "Guide the eye.",
+    "description": "Record cursor data separately from its visual design.",
+    "number": 14
+  },
+  {
+    "id": "click-effects",
+    "title": "Click & scroll effects",
+    "group": "Capture",
+    "headline": "Make every action clear.",
+    "description": "Design left-click, right-click, drag and scroll feedback.",
+    "number": 15
+  },
+  {
+    "id": "keyboard",
+    "title": "Keyboard capture",
+    "group": "Capture",
+    "headline": "Show the shortcut, not the secret.",
+    "description": "Only explicitly allowed shortcut events belong in the session.",
+    "number": 16
+  },
+  {
+    "id": "key-style",
+    "title": "Keyboard appearance",
+    "group": "Capture",
+    "headline": "Your shortcuts, your style.",
+    "description": "Design keycaps, grouping, placement and entrance animations.",
+    "number": 17
+  },
+  {
+    "id": "privacy",
+    "title": "Privacy & exclusions",
+    "group": "Capture",
+    "headline": "Decide what never gets saved.",
+    "description": "Capture permission is not the same as hiding a track in the editor.",
+    "number": 18
+  },
+  {
+    "id": "countdown",
+    "title": "Countdown & controls",
+    "group": "Capture",
+    "headline": "Take a breath. Then record.",
+    "description": "Delay, floating toolbar, capture outline and stop conditions.",
+    "number": 19
+  },
+  {
+    "id": "hotkeys",
+    "title": "Recorder shortcuts",
+    "group": "Capture",
+    "headline": "Stay in your flow.",
+    "description": "Configure start, pause, markers and an emergency privacy shortcut.",
+    "number": 20
+  },
+  {
+    "id": "frame-canvas",
+    "title": "Recording frame & canvas",
+    "group": "Capture",
+    "headline": "A frame that fits your style.",
+    "description": "Borders and backgrounds are editable presentation settings.",
+    "number": 21
+  },
+  {
+    "id": "output-storage",
+    "title": "Output & session storage",
+    "group": "Capture",
+    "headline": "Clean media. Complete context.",
+    "description": "Choose a folder and retain independent tracks alongside the MP4.",
+    "number": 22
+  },
+  {
+    "id": "presets",
+    "title": "Recording presets",
+    "group": "Capture",
+    "headline": "One click to your setup.",
+    "description": "Start with a built-in preset or save your own.",
+    "number": 23
+  },
+  {
+    "id": "readiness",
+    "title": "Preflight review",
+    "group": "Capture",
+    "headline": "One last look before action.",
+    "description": "Review armed sources, privacy and storage before starting.",
+    "number": 24
+  },
+  {
+    "id": "recording",
+    "title": "Recording controls",
+    "group": "Capture",
+    "headline": "You are in control.",
+    "description": "A simulated recording with pause, markers and per-source capture controls.",
+    "number": 25
+  },
+  {
+    "id": "capture-review",
+    "title": "Recording complete",
+    "group": "Capture",
+    "headline": "One take. Every possibility.",
+    "description": "Inspect captured sources and open them in the editor.",
+    "number": 26
+  },
+  {
+    "id": "editor",
+    "title": "Timeline editor",
+    "group": "Edit",
+    "headline": "Make every frame yours.",
+    "description": "Arrange clips, layer visuals and fine-tune every captured source.",
+    "number": 27
+  },
+  {
+    "id": "media-bin",
+    "title": "Media & tracks",
+    "group": "Edit",
+    "headline": "Everything, in its own layer.",
+    "description": "Import assets and choose how they enter the timeline.",
+    "number": 28
+  },
+  {
+    "id": "trim-split",
+    "title": "Trim & split",
+    "group": "Edit",
+    "headline": "Keep the good parts.",
+    "description": "Split at the playhead, trim edges and remove unwanted sections.",
+    "number": 29
+  },
+  {
+    "id": "join",
+    "title": "Join & rearrange",
+    "group": "Edit",
+    "headline": "Build one seamless story.",
+    "description": "Reorder clips and join them without altering the originals.",
+    "number": 30
+  },
+  {
+    "id": "crop",
+    "title": "Crop & reframe",
+    "group": "Edit",
+    "headline": "A new point of view.",
+    "description": "Choose a crop and keep pointer effects aligned to the source.",
+    "number": 31
+  },
+  {
+    "id": "resize-quality",
+    "title": "Resize & compress",
+    "group": "Edit",
+    "headline": "The right size to share.",
+    "description": "Lower resolution or bitrate while leaving the source untouched.",
+    "number": 32
+  },
+  {
+    "id": "text",
+    "title": "Text overlay",
+    "group": "Edit",
+    "headline": "Give the moment a headline.",
+    "description": "Add timed text with position, opacity and layer controls.",
+    "number": 33
+  },
+  {
+    "id": "formatted-text",
+    "title": "Formatted text",
+    "group": "Edit",
+    "headline": "Say it with a little more style.",
+    "description": "Mix bold, italic, underline and emphasis within a text block.",
+    "number": 34
+  },
+  {
+    "id": "shapes",
+    "title": "Shapes & callouts",
+    "group": "Edit",
+    "headline": "Point out the important part.",
+    "description": "Add rectangles, circles, arrows, lines and highlights.",
+    "number": 35
+  },
+  {
+    "id": "image-overlay",
+    "title": "Image overlay",
+    "group": "Edit",
+    "headline": "Add a visual layer.",
+    "description": "Place a logo, screenshot or image above the main video.",
+    "number": 36
+  },
+  {
+    "id": "video-overlay",
+    "title": "Video & camera overlay",
+    "group": "Edit",
+    "headline": "More than one perspective.",
+    "description": "Place a video or separately recorded webcam in picture-in-picture.",
+    "number": 37
+  },
+  {
+    "id": "animation",
+    "title": "Animation & keyframes",
+    "group": "Edit",
+    "headline": "Bring your layers to life.",
+    "description": "Animate position, scale, rotation and opacity over time.",
+    "number": 38
+  },
+  {
+    "id": "transitions",
+    "title": "Clip transitions",
+    "group": "Edit",
+    "headline": "Make the next moment flow.",
+    "description": "Choose a cut, dissolve or slide at a clip boundary.",
+    "number": 39
+  },
+  {
+    "id": "captions",
+    "title": "Captions & subtitles",
+    "group": "Edit",
+    "headline": "Make the story readable.",
+    "description": "Write timed captions, style them and export a subtitle sidecar.",
+    "number": 40
+  },
+  {
+    "id": "editor-mouse",
+    "title": "Edit cursor & clicks",
+    "group": "Edit",
+    "headline": "Change the effect, not the take.",
+    "description": "Hide, restyle or restore captured cursor and click events.",
+    "number": 41
+  },
+  {
+    "id": "editor-keys",
+    "title": "Edit keyboard effects",
+    "group": "Edit",
+    "headline": "Only the shortcuts you need.",
+    "description": "Hide individual key events or restyle the entire keyboard track.",
+    "number": 42
+  },
+  {
+    "id": "audio-mixer",
+    "title": "Audio mixer",
+    "group": "Edit",
+    "headline": "Find the right balance.",
+    "description": "Mute, fade and adjust system, microphone and imported audio independently.",
+    "number": 43
+  },
+  {
+    "id": "speed",
+    "title": "Speed & timing",
+    "group": "Edit",
+    "headline": "Set the pace.",
+    "description": "Adjust playback speed and keep linked events on the right frame.",
+    "number": 44
+  },
+  {
+    "id": "color",
+    "title": "Color & adjustments",
+    "group": "Edit",
+    "headline": "A little polish goes a long way.",
+    "description": "Tune brightness, contrast and saturation without changing source files.",
+    "number": 45
+  },
+  {
+    "id": "editor-canvas",
+    "title": "Canvas & background",
+    "group": "Edit",
+    "headline": "Design the space around the frame.",
+    "description": "Aspect ratio, padding, background, border and shadow.",
+    "number": 46
+  },
+  {
+    "id": "save-project",
+    "title": "Save editable project",
+    "group": "Deliver",
+    "headline": "Keep the edit open.",
+    "description": "Save a project manifest or review the portable media-package design.",
+    "number": 47
+  },
+  {
+    "id": "export",
+    "title": "Export video",
+    "group": "Deliver",
+    "headline": "Ready for the outside world.",
+    "description": "Choose the final output and exactly which tracks to include.",
+    "number": 48
+  },
+  {
+    "id": "export-progress",
+    "title": "Export queue & result",
+    "group": "Deliver",
+    "headline": "Your final cut, in motion.",
+    "description": "Review a simulated render, cancellation and completion states.",
+    "number": 49
+  },
+  {
+    "id": "track-inspector",
+    "title": "Session & JSON inspector",
+    "group": "Deliver",
+    "headline": "See what was actually captured.",
+    "description": "Frame timestamps, audio references and synchronized input events.",
+    "number": 50
+  },
+  {
+    "id": "recovery",
+    "title": "Recovery & history",
+    "group": "Deliver",
+    "headline": "Keep your work safe.",
+    "description": "Review autosave recovery, interrupted sessions and source protection.",
+    "number": 51
+  },
+  {
+    "id": "settings",
+    "title": "Appearance & preferences",
+    "group": "Review",
+    "headline": "Make the studio feel like yours.",
+    "description": "Dark and light themes, custom colors and prototype preferences.",
+    "number": 52
+  },
+  {
+    "id": "page-map",
+    "title": "All 54 screens",
+    "group": "Review",
+    "headline": "Explore the complete workflow.",
+    "description": "Jump to any screen and track your design review.",
+    "number": 53
+  },
+  {
+    "id": "review-checklist",
+    "title": "Review & approval",
+    "group": "Review",
+    "headline": "A clear path to approval.",
+    "description": "Mark feedback, test the prototype and export your review notes.",
+    "number": 54
+  }
+];

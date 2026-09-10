@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "kind": "nexus.framestudio.raw-session-design",
+  "prototypeOnly": true,
+  "note": "Synthetic contract illustration; referenced media is not included. Not a prototype-project import.",
+  "durationUs": 3000000,
+  "timebase": {
+    "ticksPerSecond": 1000000,
+    "clock": "monotonic-active-recording"
+  },
+  "sources": {
+    "screen": {
+      "path": "media/screen-001.mp4",
+      "clean": true,
+      "frames": "capture/frames/part-001.jsonl"
+    },
+    "webcam": {
+      "path": "media/webcam-001.mp4"
+    },
+    "system": {
+      "path": "media/system-001.wav",
+      "sampleRate": 48000,
+      "channels": 2
+    },
+    "microphone": {
+      "captured": false,
+      "path": null,
+      "reason": "capture-disabled",
+      "unavailableIntervalsUs": [
+        [
+          0,
+          3000000
+        ]
+      ]
+    }
+  },
+  "events": {
+    "pointer": "capture/events/pointer.jsonl",
+    "keyboard": "capture/events/keyboard.jsonl"
+  },
+  "availability": {
+    "screen": [
+      [
+        0,
+        3000000
+      ]
+    ],
+    "system": [
+      [
+        0,
+        3000000
+      ]
+    ],
+    "webcam": [
+      [
+        0,
+        3000000
+      ]
+    ],
+    "microphone": []
+  },
+  "packageRoot": "relative to the folder containing manifest.json"
+}

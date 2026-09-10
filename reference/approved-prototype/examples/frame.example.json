@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "prototypeOnly": true,
+  "sessionId": "demo-session-001",
+  "timebase": {
+    "ticksPerSecond": 1000000,
+    "clock": "monotonic-session",
+    "timeUnit": "microseconds"
+  },
+  "partId": "part-001",
+  "frameIndex": 372,
+  "ptsUs": 12400000,
+  "durationUs": 33333,
+  "sourceCanvas": {
+    "width": 1920,
+    "height": 1080,
+    "originPhysicalPx": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "pointer": {
+    "stateRef": "pointer-state-010",
+    "positionCanvasPx": {
+      "x": 1075.2,
+      "y": 572.4
+    },
+    "visible": true,
+    "cursorAsset": "assets/cursors/arrow.png",
+    "pressedButtons": [],
+    "eventRefs": [
+      "click-2"
+    ]
+  },
+  "keyboardEventRefs": [
+    "key-2"
+  ],
+  "audioRanges": {
+    "system": {
+      "file": "media/system-001.wav",
+      "sampleStart": 595200,
+      "sampleCount": 1600,
+      "sampleRate": 48000
+    },
+    "microphone": {
+      "file": "media/mic-001.wav",
+      "sampleStart": 595200,
+      "sampleCount": 1600,
+      "sampleRate": 48000
+    }
+  },
+  "camera": {
+    "file": "media/camera-001.mp4",
+    "ptsUs": 12400000
+  },
+  "note": "Illustrative 30 FPS frame; actual encoded timestamps and audio alignment are authoritative."
+}

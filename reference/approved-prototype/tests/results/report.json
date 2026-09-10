@@ -1,0 +1,729 @@
+{
+  "generatedAt": "2026-09-10T16:12:49.298660+00:00",
+  "browser": "144.0.7559.96",
+  "playwright": "1.57.0",
+  "mode": "in-memory standalone document (page.set_content)",
+  "viewports": [
+    "1920x1080",
+    "1366x768"
+  ],
+  "passed": 142,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "Catalog: exactly 54 unique screens",
+      "status": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "test": "54 physical HTML entries and relative assets",
+      "status": "PASS",
+      "seconds": 0.014
+    },
+    {
+      "test": "Route 01 home at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.519
+    },
+    {
+      "test": "Route 02 projects at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.189
+    },
+    {
+      "test": "Route 03 new-project at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.236
+    },
+    {
+      "test": "Route 04 import at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.158
+    },
+    {
+      "test": "Route 05 missing-media at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.094
+    },
+    {
+      "test": "Route 06 record at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.297
+    },
+    {
+      "test": "Route 07 capture-source at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.155
+    },
+    {
+      "test": "Route 08 monitors at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.175
+    },
+    {
+      "test": "Route 09 region at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.153
+    },
+    {
+      "test": "Route 10 video-quality at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.132
+    },
+    {
+      "test": "Route 11 audio at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.158
+    },
+    {
+      "test": "Route 12 microphone at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.103
+    },
+    {
+      "test": "Route 13 webcam at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.152
+    },
+    {
+      "test": "Route 14 mouse at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.152
+    },
+    {
+      "test": "Route 15 click-effects at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.119
+    },
+    {
+      "test": "Route 16 keyboard at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.114
+    },
+    {
+      "test": "Route 17 key-style at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.153
+    },
+    {
+      "test": "Route 18 privacy at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.139
+    },
+    {
+      "test": "Route 19 countdown at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.173
+    },
+    {
+      "test": "Route 20 hotkeys at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.112
+    },
+    {
+      "test": "Route 21 frame-canvas at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.168
+    },
+    {
+      "test": "Route 22 output-storage at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.154
+    },
+    {
+      "test": "Route 23 presets at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.118
+    },
+    {
+      "test": "Route 24 readiness at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.275
+    },
+    {
+      "test": "Route 25 recording at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.149
+    },
+    {
+      "test": "Route 26 capture-review at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.142
+    },
+    {
+      "test": "Route 27 editor at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.353
+    },
+    {
+      "test": "Route 28 media-bin at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.178
+    },
+    {
+      "test": "Route 29 trim-split at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.232
+    },
+    {
+      "test": "Route 30 join at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.173
+    },
+    {
+      "test": "Route 31 crop at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.165
+    },
+    {
+      "test": "Route 32 resize-quality at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.163
+    },
+    {
+      "test": "Route 33 text at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.225
+    },
+    {
+      "test": "Route 34 formatted-text at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.181
+    },
+    {
+      "test": "Route 35 shapes at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.19
+    },
+    {
+      "test": "Route 36 image-overlay at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.255
+    },
+    {
+      "test": "Route 37 video-overlay at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.151
+    },
+    {
+      "test": "Route 38 animation at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.49
+    },
+    {
+      "test": "Route 39 transitions at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.225
+    },
+    {
+      "test": "Route 40 captions at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.185
+    },
+    {
+      "test": "Route 41 editor-mouse at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.214
+    },
+    {
+      "test": "Route 42 editor-keys at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.165
+    },
+    {
+      "test": "Route 43 audio-mixer at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.194
+    },
+    {
+      "test": "Route 44 speed at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.13
+    },
+    {
+      "test": "Route 45 color at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.14
+    },
+    {
+      "test": "Route 46 editor-canvas at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.144
+    },
+    {
+      "test": "Route 47 save-project at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.107
+    },
+    {
+      "test": "Route 48 export at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.13
+    },
+    {
+      "test": "Route 49 export-progress at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.247
+    },
+    {
+      "test": "Route 50 track-inspector at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.13
+    },
+    {
+      "test": "Route 51 recovery at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.118
+    },
+    {
+      "test": "Route 52 settings at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.086
+    },
+    {
+      "test": "Route 53 page-map at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.096
+    },
+    {
+      "test": "Route 54 review-checklist at 1920x1080",
+      "status": "PASS",
+      "seconds": 0.1
+    },
+    {
+      "test": "Route 01 home at 1366x768",
+      "status": "PASS",
+      "seconds": 0.344
+    },
+    {
+      "test": "Route 02 projects at 1366x768",
+      "status": "PASS",
+      "seconds": 0.157
+    },
+    {
+      "test": "Route 03 new-project at 1366x768",
+      "status": "PASS",
+      "seconds": 0.139
+    },
+    {
+      "test": "Route 04 import at 1366x768",
+      "status": "PASS",
+      "seconds": 0.129
+    },
+    {
+      "test": "Route 05 missing-media at 1366x768",
+      "status": "PASS",
+      "seconds": 0.091
+    },
+    {
+      "test": "Route 06 record at 1366x768",
+      "status": "PASS",
+      "seconds": 0.146
+    },
+    {
+      "test": "Route 07 capture-source at 1366x768",
+      "status": "PASS",
+      "seconds": 0.117
+    },
+    {
+      "test": "Route 08 monitors at 1366x768",
+      "status": "PASS",
+      "seconds": 0.135
+    },
+    {
+      "test": "Route 09 region at 1366x768",
+      "status": "PASS",
+      "seconds": 0.16
+    },
+    {
+      "test": "Route 10 video-quality at 1366x768",
+      "status": "PASS",
+      "seconds": 0.099
+    },
+    {
+      "test": "Route 11 audio at 1366x768",
+      "status": "PASS",
+      "seconds": 0.084
+    },
+    {
+      "test": "Route 12 microphone at 1366x768",
+      "status": "PASS",
+      "seconds": 0.087
+    },
+    {
+      "test": "Route 13 webcam at 1366x768",
+      "status": "PASS",
+      "seconds": 0.115
+    },
+    {
+      "test": "Route 14 mouse at 1366x768",
+      "status": "PASS",
+      "seconds": 0.144
+    },
+    {
+      "test": "Route 15 click-effects at 1366x768",
+      "status": "PASS",
+      "seconds": 0.104
+    },
+    {
+      "test": "Route 16 keyboard at 1366x768",
+      "status": "PASS",
+      "seconds": 0.09
+    },
+    {
+      "test": "Route 17 key-style at 1366x768",
+      "status": "PASS",
+      "seconds": 0.103
+    },
+    {
+      "test": "Route 18 privacy at 1366x768",
+      "status": "PASS",
+      "seconds": 0.103
+    },
+    {
+      "test": "Route 19 countdown at 1366x768",
+      "status": "PASS",
+      "seconds": 0.116
+    },
+    {
+      "test": "Route 20 hotkeys at 1366x768",
+      "status": "PASS",
+      "seconds": 0.1
+    },
+    {
+      "test": "Route 21 frame-canvas at 1366x768",
+      "status": "PASS",
+      "seconds": 0.109
+    },
+    {
+      "test": "Route 22 output-storage at 1366x768",
+      "status": "PASS",
+      "seconds": 0.103
+    },
+    {
+      "test": "Route 23 presets at 1366x768",
+      "status": "PASS",
+      "seconds": 0.097
+    },
+    {
+      "test": "Route 24 readiness at 1366x768",
+      "status": "PASS",
+      "seconds": 0.107
+    },
+    {
+      "test": "Route 25 recording at 1366x768",
+      "status": "PASS",
+      "seconds": 0.107
+    },
+    {
+      "test": "Route 26 capture-review at 1366x768",
+      "status": "PASS",
+      "seconds": 0.095
+    },
+    {
+      "test": "Route 27 editor at 1366x768",
+      "status": "PASS",
+      "seconds": 0.18
+    },
+    {
+      "test": "Route 28 media-bin at 1366x768",
+      "status": "PASS",
+      "seconds": 0.224
+    },
+    {
+      "test": "Route 29 trim-split at 1366x768",
+      "status": "PASS",
+      "seconds": 0.151
+    },
+    {
+      "test": "Route 30 join at 1366x768",
+      "status": "PASS",
+      "seconds": 0.116
+    },
+    {
+      "test": "Route 31 crop at 1366x768",
+      "status": "PASS",
+      "seconds": 0.133
+    },
+    {
+      "test": "Route 32 resize-quality at 1366x768",
+      "status": "PASS",
+      "seconds": 0.142
+    },
+    {
+      "test": "Route 33 text at 1366x768",
+      "status": "PASS",
+      "seconds": 0.142
+    },
+    {
+      "test": "Route 34 formatted-text at 1366x768",
+      "status": "PASS",
+      "seconds": 0.124
+    },
+    {
+      "test": "Route 35 shapes at 1366x768",
+      "status": "PASS",
+      "seconds": 0.155
+    },
+    {
+      "test": "Route 36 image-overlay at 1366x768",
+      "status": "PASS",
+      "seconds": 0.39
+    },
+    {
+      "test": "Route 37 video-overlay at 1366x768",
+      "status": "PASS",
+      "seconds": 0.129
+    },
+    {
+      "test": "Route 38 animation at 1366x768",
+      "status": "PASS",
+      "seconds": 0.13
+    },
+    {
+      "test": "Route 39 transitions at 1366x768",
+      "status": "PASS",
+      "seconds": 0.148
+    },
+    {
+      "test": "Route 40 captions at 1366x768",
+      "status": "PASS",
+      "seconds": 0.117
+    },
+    {
+      "test": "Route 41 editor-mouse at 1366x768",
+      "status": "PASS",
+      "seconds": 0.129
+    },
+    {
+      "test": "Route 42 editor-keys at 1366x768",
+      "status": "PASS",
+      "seconds": 0.107
+    },
+    {
+      "test": "Route 43 audio-mixer at 1366x768",
+      "status": "PASS",
+      "seconds": 0.129
+    },
+    {
+      "test": "Route 44 speed at 1366x768",
+      "status": "PASS",
+      "seconds": 0.155
+    },
+    {
+      "test": "Route 45 color at 1366x768",
+      "status": "PASS",
+      "seconds": 0.127
+    },
+    {
+      "test": "Route 46 editor-canvas at 1366x768",
+      "status": "PASS",
+      "seconds": 0.135
+    },
+    {
+      "test": "Route 47 save-project at 1366x768",
+      "status": "PASS",
+      "seconds": 0.119
+    },
+    {
+      "test": "Route 48 export at 1366x768",
+      "status": "PASS",
+      "seconds": 0.107
+    },
+    {
+      "test": "Route 49 export-progress at 1366x768",
+      "status": "PASS",
+      "seconds": 0.132
+    },
+    {
+      "test": "Route 50 track-inspector at 1366x768",
+      "status": "PASS",
+      "seconds": 0.081
+    },
+    {
+      "test": "Route 51 recovery at 1366x768",
+      "status": "PASS",
+      "seconds": 0.081
+    },
+    {
+      "test": "Route 52 settings at 1366x768",
+      "status": "PASS",
+      "seconds": 0.099
+    },
+    {
+      "test": "Route 53 page-map at 1366x768",
+      "status": "PASS",
+      "seconds": 0.145
+    },
+    {
+      "test": "Route 54 review-checklist at 1366x768",
+      "status": "PASS",
+      "seconds": 0.144
+    },
+    {
+      "test": "Editor preview preserves 16:9 geometry",
+      "status": "PASS",
+      "seconds": 0.179
+    },
+    {
+      "test": "Previous / next navigation",
+      "status": "PASS",
+      "seconds": 0.846
+    },
+    {
+      "test": "Search all screens with Ctrl+K",
+      "status": "PASS",
+      "seconds": 1.444
+    },
+    {
+      "test": "Split keeps source duration; undo and redo",
+      "status": "PASS",
+      "seconds": 2.205
+    },
+    {
+      "test": "Append, reorder and delete clips non-destructively",
+      "status": "PASS",
+      "seconds": 0.726
+    },
+    {
+      "test": "Timeline clip selection",
+      "status": "PASS",
+      "seconds": 0.325
+    },
+    {
+      "test": "Edit text, bold and mixed-span emphasis",
+      "status": "PASS",
+      "seconds": 0.749
+    },
+    {
+      "test": "Shape creation, duplication, stacking and deletion",
+      "status": "PASS",
+      "seconds": 0.916
+    },
+    {
+      "test": "Overlay move gizmo updates position",
+      "status": "PASS",
+      "seconds": 0.382
+    },
+    {
+      "test": "Full-pose animation keyframe saved",
+      "status": "PASS",
+      "seconds": 0.336
+    },
+    {
+      "test": "Timeline playback and pause simulation",
+      "status": "PASS",
+      "seconds": 0.562
+    },
+    {
+      "test": "Muting system audio leaves microphone and capture untouched",
+      "status": "PASS",
+      "seconds": 0.507
+    },
+    {
+      "test": "Hide and restore cursor / keyboard without erasing capture",
+      "status": "PASS",
+      "seconds": 0.975
+    },
+    {
+      "test": "Light / dark theme switch",
+      "status": "PASS",
+      "seconds": 1.189
+    },
+    {
+      "test": "Crop ratio and reset controls",
+      "status": "PASS",
+      "seconds": 0.525
+    },
+    {
+      "test": "Compression settings transfer to export",
+      "status": "PASS",
+      "seconds": 0.351
+    },
+    {
+      "test": "Download editable JSON and reopen through file picker",
+      "status": "PASS",
+      "seconds": 0.622
+    },
+    {
+      "test": "Reject unknown schema, wrong kind, duplicate IDs, invalid ranges",
+      "status": "PASS",
+      "seconds": 0.085
+    },
+    {
+      "test": "Malformed JSON does not replace the current project",
+      "status": "PASS",
+      "seconds": 0.338
+    },
+    {
+      "test": "Import local image into media bin",
+      "status": "PASS",
+      "seconds": 0.345
+    },
+    {
+      "test": "Download real SRT caption sidecar",
+      "status": "PASS",
+      "seconds": 0.315
+    },
+    {
+      "test": "Download render plan and metadata JSON",
+      "status": "PASS",
+      "seconds": 0.385
+    },
+    {
+      "test": "Per-screen feedback and Markdown review download",
+      "status": "PASS",
+      "seconds": 4.155
+    },
+    {
+      "test": "Quick preset selector applies capture values",
+      "status": "PASS",
+      "seconds": 0.333
+    },
+    {
+      "test": "Capture-off microphone is unavailable, not recoverable",
+      "status": "PASS",
+      "seconds": 2.914
+    },
+    {
+      "test": "Pause freezes time; later capture-off preserves a real gap",
+      "status": "PASS",
+      "seconds": 4.6
+    },
+    {
+      "test": "Countdown cancellation produces no take",
+      "status": "PASS",
+      "seconds": 0.833
+    },
+    {
+      "test": "Cancel export simulation without changing source session",
+      "status": "PASS",
+      "seconds": 0.605
+    },
+    {
+      "test": "Export simulation completes and explicitly reports no MP4",
+      "status": "PASS",
+      "seconds": 3.796
+    },
+    {
+      "test": "Disk-full export failure fixture",
+      "status": "PASS",
+      "seconds": 0.185
+    },
+    {
+      "test": "No unhandled JavaScript exceptions",
+      "status": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "test": "Offline render makes no HTTP requests",
+      "status": "PASS",
+      "seconds": 0.0
+    }
+  ],
+  "javascriptErrors": [],
+  "networkRequests": [
+    "blob:null/914ee76e-3d07-4fbc-a33f-18ef0c5d982c"
+  ],
+  "scopeNote": "Prototype UI only. No native capture, real encoding, Windows device testing, production media fidelity, or recovery testing. File/HTTP navigation is not tested in in-memory mode."
+}

@@ -1,0 +1,438 @@
+{
+  "kind": "planning-reviewer-browser-checks",
+  "mode": "browser-memory with inlined resources and controlled storage adapter",
+  "limitations": [
+    "file:// and localhost navigation were blocked by this environment browser policy; real file/HTTP navigation, browser storage persistence and Windows launch remain unverified",
+    "Reference links were checked structurally, not followed in the restricted browser"
+  ],
+  "nativeTestsRun": false,
+  "passed": 85,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Reviewer opens in browser-memory mode",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Overview has five phase cards",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Overview reports 100 tasks and 150 specifications",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 task checklist at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 manual cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 manual case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 auto cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 auto case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 handoff notes available at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 no horizontal overflow at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 task checklist at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 manual cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 manual case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 auto cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 auto case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 handoff notes available at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 no horizontal overflow at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 task checklist at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 manual cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 manual case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 auto cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 auto case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 handoff notes available at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 no horizontal overflow at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 task checklist at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 manual cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 manual case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 auto cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 auto case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 handoff notes available at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 no horizontal overflow at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 task checklist at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 manual cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 manual case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 auto cases at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 auto case expands at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 handoff notes available at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 no horizontal overflow at 1920\u00d71080",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 task checklist at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 manual cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 manual case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 auto cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 auto case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 handoff notes available at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P1 no horizontal overflow at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 task checklist at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 manual cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 manual case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 auto cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 auto case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 handoff notes available at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P2 no horizontal overflow at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 task checklist at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 manual cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 manual case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 auto cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 auto case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 handoff notes available at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P3 no horizontal overflow at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 task checklist at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 manual cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 manual case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 auto cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 auto case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 handoff notes available at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P4 no horizontal overflow at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 task checklist at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 manual cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 manual case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 auto cases at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 auto case expands at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 handoff notes available at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "P5 no horizontal overflow at 1366\u00d7768",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Task search returns exact matching task",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Draft notes restore through controlled storage and remain escaped",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Light theme switches",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Theme preference restores through controlled storage",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Review notes export as real JSON",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Review export never grants completion or approval",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All feature traceability rows displayed",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Feature search filters correctly",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 54 approved screen links displayed",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Editor reference link targets the approved file",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No unhandled reviewer JavaScript exceptions",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "In-memory reviewer makes no external web requests",
+      "result": "PASS",
+      "detail": ""
+    }
+  ]
+}

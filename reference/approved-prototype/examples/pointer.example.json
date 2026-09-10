@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "prototypeOnly": true,
+  "sessionId": "demo-session-001",
+  "timebase": {
+    "ticksPerSecond": 1000000,
+    "clock": "monotonic-session",
+    "timeUnit": "microseconds"
+  },
+  "sourceCaptured": true,
+  "events": [
+    {
+      "id": "pointer-state-010",
+      "type": "move",
+      "ptsUs": 12380000,
+      "x": 1075.2,
+      "y": 572.4,
+      "coordinateSpace": "capture-canvas-physical-pixels",
+      "visible": true,
+      "cursorAsset": "assets/cursors/arrow.png",
+      "hotspot": {
+        "x": 0,
+        "y": 0
+      },
+      "buttons": []
+    },
+    {
+      "id": "click-2",
+      "type": "button-down",
+      "button": "right",
+      "ptsUs": 12400000,
+      "x": 1075.2,
+      "y": 572.4
+    },
+    {
+      "id": "click-2-up",
+      "type": "button-up",
+      "button": "right",
+      "ptsUs": 12486000,
+      "x": 1075.2,
+      "y": 572.4
+    }
+  ],
+  "recordingGaps": []
+}

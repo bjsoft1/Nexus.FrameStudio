@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "prototypeOnly": true,
+  "sessionId": "demo-session-001",
+  "timebase": {
+    "ticksPerSecond": 1000000,
+    "clock": "monotonic-session",
+    "timeUnit": "microseconds"
+  },
+  "sourceCaptured": true,
+  "privacy": {
+    "policy": "allowlisted-shortcuts-only",
+    "ordinaryTextStored": false,
+    "secureFieldDetection": "best-effort; never sole protection"
+  },
+  "events": [
+    {
+      "id": "key-2",
+      "type": "shortcut",
+      "ptsUs": 12400000,
+      "key": "K",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "displaySafe": true,
+      "repeat": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "prototypeOnly": true,
+  "sessionId": "demo-session-001",
+  "timebase": {
+    "ticksPerSecond": 1000000,
+    "clock": "monotonic-session",
+    "timeUnit": "microseconds"
+  },
+  "name": "Roundtrip acceptance test",
+  "sourceFormat": "Clean MP4 plus independent sources",
+  "durationUs": 42000000,
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "coordinateSpace": "physical-pixels"
+  },
+  "sources": {
+    "screen": {
+      "captured": true,
+      "status": "available",
+      "path": "media/screen-001.mp4"
+    },
+    "system": {
+      "captured": true,
+      "status": "available",
+      "path": "media/system-001.wav"
+    },
+    "mic": {
+      "captured": true,
+      "status": "available",
+      "path": "media/mic-001.wav"
+    },
+    "camera": {
+      "captured": true,
+      "status": "available",
+      "path": "media/camera-001.mp4"
+    },
+    "mouse": {
+      "captured": true,
+      "status": "available",
+      "path": "metadata/pointer.jsonl"
+    },
+    "keys": {
+      "captured": true,
+      "status": "available",
+      "path": "metadata/keys.jsonl"
+    }
+  },
+  "frameMap": "metadata/frames-001.jsonl",
+  "availabilityIntervals": [],
+  "gaps": [],
+  "sourceEffectsBurnedIn": false,
+  "projectFile": "project.nfsproject",
+  "note": "This prototype records no media. Paths show the proposed session layout."
+}
