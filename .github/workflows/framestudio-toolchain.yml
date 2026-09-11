@@ -1,0 +1,37 @@
+name: FrameStudio toolchain preparation
+on:
+  push:
+    branches: [codex/framestudio-phases-1-2-source]
+    paths: [.github/workflows/framestudio-toolchain.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.100'
+      - name: Restore only FrameStudio dependencies
+        shell: bash
+        run: |
+          mkdir -p /tmp/framestudio-deps
+          cd /tmp/framestudio-deps
+          cat > Dependencies.csproj <<'EOF'
+          <Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net10.0-windows10.0.19041.0</TargetFramework><EnableWindowsTargeting>true</EnableWindowsTargeting><UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms></PropertyGroup><ItemGroup><PackageReference Include="NAudio.Wasapi" Version="3.0.1"/><PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1"/><PackageReference Include="xunit" Version="2.9.3"/><PackageReference Include="xunit.runner.visualstudio" Version="2.8.2"/></ItemGroup></Project>
+          EOF
+          dotnet --info > toolchain-info.txt
+          dotnet restore Dependencies.csproj
+          SDKROOT=$(dirname "$(readlink -f "$(command -v dotnet)")")
+          mkdir -p /tmp/framestudio-toolchain
+          tar -czf /tmp/framestudio-toolchain/sdk.tar.gz -C "$SDKROOT" .
+          tar -czf /tmp/framestudio-toolchain/nuget.tar.gz -C "$HOME/.nuget/packages" .
+          cp toolchain-info.txt /tmp/framestudio-toolchain/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: framestudio-toolchain
+          path: /tmp/framestudio-toolchain/
+          retention-days: 1
+          compression-level: 0
